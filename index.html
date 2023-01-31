@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="responsive.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="first_header">
+            <div class="first_logo">
+               <h3>  WHAT2EAT</h3>
+            </div>
+            <div class="first_list">
+                <input type="checkbox"  id="resp_check">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Menu</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+            </div>
+           
+            <div class="first_search">
+                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 20L15.514 15.506L20 20ZM18 9.5C18 11.7543 17.1045 13.9163 15.5104 15.5104C13.9163 17.1045 11.7543 18 9.5 18C7.24566 18 5.08365 17.1045 3.48959 15.5104C1.89553 13.9163 1 11.7543 1 9.5C1 7.24566 1.89553 5.08365 3.48959 3.48959C5.08365 1.89553 7.24566 1 9.5 1C11.7543 1 13.9163 1.89553 15.5104 3.48959C17.1045 5.08365 18 7.24566 18 9.5V9.5Z" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                    <svg id="cardIcon" width="21" height="24" viewBox="0 0 21 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.97689 9.84C3.01712 9.33881 3.24464 8.87115 3.61417 8.53017C3.98369 8.18918 4.46808 7.9999 4.97089 8H17.0289C17.5317 7.9999 18.0161 8.18918 18.3856 8.53017C18.7551 8.87115 18.9827 9.33881 19.0229 9.84L19.8259 19.84C19.848 20.1152 19.8129 20.392 19.7227 20.6529C19.6326 20.9139 19.4894 21.1533 19.3022 21.3562C19.115 21.5592 18.8878 21.7211 18.6349 21.8319C18.382 21.9427 18.109 21.9999 17.8329 22H4.16689C3.89081 21.9999 3.61774 21.9427 3.36487 21.8319C3.112 21.7211 2.8848 21.5592 2.69759 21.3562C2.51037 21.1533 2.36719 20.9139 2.27706 20.6529C2.18693 20.392 2.1518 20.1152 2.17389 19.84L2.97689 9.84V9.84Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M14.9999 11V6C14.9999 4.93913 14.5785 3.92172 13.8283 3.17157C13.0782 2.42143 12.0607 2 10.9999 2C9.93901 2 8.9216 2.42143 8.17145 3.17157C7.42131 3.92172 6.99988 4.93913 6.99988 6V11" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <div id="cartList">
+                        <h2>Products</h2>
+                    </div>
+            </div> 
+            <label for="resp_check" id="resp_icon">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+        </div>
+        
+        <div class="first_container">
+            <div class="first_left_cont">
+                <h1>Authentic Home food in UK</h1>
+                <p>What2Eat is a courier service in which authentic home cook food is delivered to a customer.</p>
+                <div class="search_cont"><input type="search" placeholder="Search food you love"> <button>Search</button></div> 
+            </div>
+            <div class="first_right_container">
+                <img src="./cooking/cuate.png" alt="">
+            </div>
+        </div>
+
+    </header>
+    
+    <main>
+        <div class="main">
+                <h3>Home Kitchen</h3>
+             <div class="main_buttons">
+                <button id="m1">All</button>
+                <button>Button</button>
+                <button id="m2">Free delivery</button>
+                <button>New</button>
+                <button id="m3">Coming</button>
+            </div>
+            <input id="m4" type="text" placeholder="Filters">
+        </div>
+        <div id="container" class="main_container">
+          
+        </div>
+        <div class="load_more">
+            <button>+ Load more</button>
+        </div>
+        
+        
+
+    </main>
+
+    <div class="second">
+        <h2>Our Blog</h2>
+        <div class="second_main">
+            <div class="smain_left">
+                <div class="left_card">
+                    <img src="./img/unsplash_bZD6EO4cx2U.png" alt="">
+                    <h4>Most Satisfying Cake decorating
+                        Cake ideas </h4>
+                    <p>Quis hendrerit nibh mauris sed faucibus.
+                        Quis hendrerit nibh mauris sed faucibus.</p>
+                </div>
+                <div class="left_card">
+                    <img src="./img/unsplash_bZD6EO4cx2U.png" alt="">
+                    <h4>Most Satisfying Cake decorating
+                        Cake ideas </h4>
+                    <p>Quis hendrerit nibh mauris sed faucibus.
+                        Quis hendrerit nibh mauris sed faucibus.</p>
+                </div>
+            </div>
+            <div class="smain_cent">
+                <img src="./img/unsplash_B-j277apkPg.png" alt="">
+                <h4>Most Satisfying Cake decorating Cake ideas Most Satisfying Cake</h4>
+                <p id="m6">Quis hendrerit nibh mauris sed faucibus. Quis hendrerit nibh mauris sed faucibus is sed faucibus.</p>
+            </div>
+            <div class="smain_right">
+                <div class="left_card">
+                    <img src="./img/unsplash_bZD6EO4cx2U.png" alt="">
+                    <h4>Most Satisfying Cake decorating
+                        Cake ideas </h4>
+                    <p>Quis hendrerit nibh mauris sed faucibus.
+                        Quis hendrerit nibh mauris sed faucibus.</p>
+                </div>
+                <div class="left_card">
+                    <img src="./img/unsplash_bZD6EO4cx2U.png" alt="">
+                    <h4>Most Satisfying Cake decorating
+                        Cake ideas </h4>
+                    <p>Quis hendrerit nibh mauris sed faucibus.
+                        Quis hendrerit nibh mauris sed faucibus.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="third_m">
+        <div class="third">
+        <div class="third_1">
+            <h2>Do you have a question <br>
+                or want to become a seller?</h2>
+            <p>Fill this form and our manager will contact you next 48 hours.</p> 
+            <div class="input1">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your e-mail">
+            </div>
+            <div class="input2">
+                <input type="text" placeholder="Your message">
+             </div>
+        </div>
+        <div class="third_2">
+            <img src="./img/Food_delivery_cute_man_riding_motorcycles_cartoon_art_illustration 2.png" alt="">
+        </div>
+    </div>
+</div>
+
+
+
+    <footer>
+        <div class="first_header">
+            <div class="first_logo">
+               <h3>  WHAT2EAT</h3>
+            </div>
+            <div class="first_list">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Menu</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="first_search">
+                <svg width="29" height="26" viewBox="0 0 29 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.173401" width="27.75" height="25.5" rx="5" fill="white"/>
+                    <path d="M17.6594 14.7495L18.1305 11.6127H15.1859V9.57708C15.1859 8.71908 15.5971 7.88221 16.916 7.88221H18.2545V5.21179C18.2545 5.21179 17.04 5 15.8785 5C13.4538 5 11.8689 6.50258 11.8689 9.22229V11.6132H9.1734V14.75H11.8689V22.3333H15.1859V14.75L17.6594 14.7495Z" fill="#929292"/>
+                    </svg>
+                    <svg width="28" height="26" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.173401" width="27.1532" height="25.3333" rx="5" fill="white"/>
+                        <path d="M13.7477 9.77655C12.1728 9.77655 10.8876 11.0753 10.8876 12.6667C10.8876 14.2581 12.1728 15.5568 13.7477 15.5568C15.3225 15.5568 16.6077 14.2581 16.6077 12.6667C16.6077 11.0753 15.3225 9.77655 13.7477 9.77655ZM22.3256 12.6667C22.3256 11.4699 22.3363 10.2839 22.2698 9.08925C22.2033 7.70165 21.89 6.47015 20.8859 5.45546C19.8797 4.43861 18.6631 4.12423 17.29 4.05702C16.1056 3.9898 14.932 4.00064 13.7498 4.00064C12.5655 4.00064 11.3919 3.9898 10.2097 4.05702C8.8365 4.12423 7.61782 4.44078 6.61371 5.45546C5.60744 6.47231 5.29634 7.70165 5.22982 9.08925C5.16331 10.2861 5.17404 11.472 5.17404 12.6667C5.17404 13.8613 5.16331 15.0494 5.22982 16.2441C5.29634 17.6317 5.60959 18.8632 6.61371 19.8779C7.61997 20.8947 8.8365 21.2091 10.2097 21.2763C11.394 21.3435 12.5676 21.3327 13.7498 21.3327C14.9342 21.3327 16.1078 21.3435 17.29 21.2763C18.6631 21.2091 19.8818 20.8926 20.8859 19.8779C21.8922 18.861 22.2033 17.6317 22.2698 16.2441C22.3385 15.0494 22.3256 13.8635 22.3256 12.6667ZM13.7477 17.1135C11.3125 17.1135 9.34714 15.1275 9.34714 12.6667C9.34714 10.2058 11.3125 8.21983 13.7477 8.21983C16.1829 8.21983 18.1482 10.2058 18.1482 12.6667C18.1482 15.1275 16.1829 17.1135 13.7477 17.1135ZM18.3284 9.07624C17.7599 9.07624 17.3007 8.61226 17.3007 8.03771C17.3007 7.46315 17.7599 6.99917 18.3284 6.99917C18.897 6.99917 19.3562 7.46315 19.3562 8.03771C19.3563 8.17414 19.3299 8.30926 19.2783 8.43534C19.2267 8.56142 19.151 8.67597 19.0555 8.77244C18.96 8.86891 18.8467 8.94541 18.7219 8.99754C18.5972 9.04967 18.4634 9.07641 18.3284 9.07624Z" fill="#929292"/>
+                    </svg>
+                
+            </div>
+            
+        </div>
+            <div class="footer_line">
+                    <svg width="1181" height="2" viewBox="0 0 1181 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 1H1180.5" stroke="white"/>
+                        </svg>
+            </div>
+            <p>Copyright @2021 What2Eat</p>
+    </footer>
+<script src="./js/main.js"></script>
+</body>
+</html>

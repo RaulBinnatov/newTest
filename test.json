@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "home made pizza",
+        "price":"19",
+        "raiting":"4,7",
+        "time":"50-79min",
+        "info": "At vero eos et accusamus et iusto odio dignissimos ducimus qui bland itiis praesentium voluptatum deleniti atque corrupti.",
+        "img": "./img/unsplash_MqT0asuoIcU.png",
+        "count" : 1
+
+    
+    },
+    {
+        "id": 2,
+        "name": "home made pizza2",
+        "price":"39",
+        "raiting":"4,7",
+        "time":"50-79min",
+        "info": "At vero eos et accusamus et iusto odio dignissimos ducimus qui bland itiis praesentium voluptatum deleniti atque corrupti.",
+        "img": "./img/unsplash_MqT0asuoIcU.png",
+        "count" : 1
+
+    
+    },
+    {
+        "id": 3,
+        "name": "home made pizza3",
+        "price":"29",
+        "raiting":"4,7",
+        "time":"50-79min",
+        "info": "At vero eos et accusamus et iusto odio dignissimos ducimus qui bland itiis praesentium voluptatum deleniti atque corrupti.",
+        "img": "./img/unsplash_MqT0asuoIcU.png",
+        "count" : 1
+
+    
+    },
+    {
+        "id": 4,
+        "name": "home made pizza4",
+        "price":18,
+        "raiting":"4,7",
+        "time":"50-79min",
+        "info": "At vero eos et accusamus et iusto odio dignissimos ducimus qui bland itiis praesentium voluptatum deleniti atque corrupti.",
+        "img": "./img/unsplash_MqT0asuoIcU.png",
+        "count" : 1
+
+    
+    },
+    {
+        "id": 5,
+        "name": "home made pizza5",
+        "price":129,
+        "raiting":"4,7",
+        "time":"50-79min",
+        "info": "At vero eos et accusamus et iusto odio dignissimos ducimus qui bland itiis praesentium voluptatum deleniti atque corrupti.",
+        "img": "./img/unsplash_MqT0asuoIcU.png",
+        "count" : 1
+
+    
+    },
+    {
+        "id": 6,
+        "name": "home made pizza6",
+        "price":109 ,
+        "raiting":"4,7",
+        "time":"50-79min",
+        "info": "At vero eos et accusamus et iusto odio dignissimos ducimus qui bland itiis praesentium voluptatum deleniti atque corrupti.",
+        "img": "./img/unsplash_MqT0asuoIcU.png",
+        "count" : 1
+
+    
+    },
+    {
+        "id": 7,
+        "name": "home made pizza7",
+        "price":49,
+        "raiting":"4,7",
+        "time":"50-79min",
+        "info": "At vero eos et accusamus et iusto odio dignissimos ducimus qui bland itiis praesentium voluptatum deleniti atque corrupti.",
+        "img": "./img/unsplash_MqT0asuoIcU.png",
+        "count" : 1
+
+    
+    },
+    {
+        "id": 8,
+        "name": "home made pizza10",
+        "price":19,
+        "raiting":"4,7",
+        "time":"50-79min",
+        "info": "At vero eos et accusamus et iusto odio dignissimos ducimus qui bland itiis praesentium voluptatum deleniti atque corrupti.",
+        "img": "./img/unsplash_MqT0asuoIcU.png",
+        "count" : 1
+
+    
+    }
+]
